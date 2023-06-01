@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Apollo skin",
+  "description": "Apollo Skin",
+  "version": "0.1",
+  "permissions": [
+    "declarativeNetRequest",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://reddit.com/*"],
+      "js": ["script.js"]
+    }
+  ],
+  "web_accessible_resources" : [{
+    "resources": ["styles.css"],
+    "matches": ["https://reddit.com/*"]
+  }],
+  "action": {
+    "default-title": "Apollo Skin"
+  }
+}

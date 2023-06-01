@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "rules": [
+        {
+            "id": 1000000,
+            "priority": 1,
+            "action": {
+                "type": "block"
+            },
+            "condition": {
+                "urlFilter": "^https://www.redditstatic.com/.*\\.css$"
+            }
+        }
+    ]
+}
