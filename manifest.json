@@ -3,10 +3,6 @@
   "name": "Apollo skin",
   "description": "Apollo Skin",
   "version": "0.1",
-  "permissions": [
-    "declarativeNetRequest",
-    "scripting"
-  ],
   "background": {
     "service_worker": "background.js"
   },

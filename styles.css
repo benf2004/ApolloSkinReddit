@@ -1,0 +1,9 @@
+:has(.Post__header-wrapper) {
+    /* CSS styles for the parent element */
+    display: flex;
+}
+
+.Post__header-wrapper {
+    order: 2
+}
+
