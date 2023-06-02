@@ -1,5 +1,3 @@
-// script.js
-
 // Function to inject CSS into the page
 function injectCSS(file) {
     const link = document.createElement('link');
